@@ -1,8 +1,7 @@
-var BMI = function(number1, number2) {
-return (number1 / number2)/number2;
+var temperature = function(number1, number2) {
+return number1 * 9/5 + 32;
 };
     
-var number1 = parseInt(prompt("Enter weight"));
-var number2 = parseInt(prompt("Enter height"));
+var number1 = parseInt(prompt("Enter temperature in celsius"));
     
-alert(BMI(number1, number2));
+alert(temperature(number1));
